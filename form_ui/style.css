@@ -1,0 +1,93 @@
+/* #5CDBA4 */
+
+body{
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:relative;
+    background-color:#5CDBA4;
+    font-size:10px;
+    overflow: hidden;
+}
+.body{
+    /* position:absolute;
+    top:0;
+    right:0;
+    bottom:60;
+    left:0; */
+    margin-left:60px;
+    margin-bottom:60px;
+    
+    background-color:#fff;
+    padding:60px;
+    width:100%;
+    height:100%;
+    
+    vertical-align: auto;
+    max-width:92%;
+}
+.eye-logo i{
+    translate:rotate(180deg);
+    font-size:24px;
+    margin-left:-40px;
+    margin-top:-40px;
+}
+.form{
+   margin-right:60px;
+}
+.body .header h1{
+    font-weight: 700;
+    font-size:48px;
+    line-height:0.8;
+}
+.form p{
+    line-height:0.8;
+}
+.form input[type="text"],.form  input[type="email"],textarea{
+    border:none;
+    outline:none;
+    border-bottom:1px solid #777;
+    width:96%;
+}
+.form button{
+    background-color:#FF8D5E;
+    color:#fff;
+    font-size:8px;
+    padding:8px;
+    margin-top:15px;
+    outline:none;
+    border:none;
+}
+.form-elements{
+    display:flex;
+    flex-direction:row;
+    justify-content:start;
+    align-items:center;
+
+}
+.input-group{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-bottom:15px;
+}
+.input-group input{
+    border:none;
+    border-bottom:1px solid #ddd;
+    outline:none;
+    width:48% !important;
+    
+}
+.separator{
+    border-right:1px solid #ddd;
+    height:200px;
+}
+.form-banner{
+ width:250px !important;
+ max-width:100%;
+ background-color:#fff;
+ margin-left:40px;
+}
+.form-banner a{
+  color:black;
+  text-decoration: none;
+}
